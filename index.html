@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Dashboard</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="icons/cryplex.png" alt="logo.img">
+      <h1>CRYPLEX</h1>
+    </div>
+    <div class="header-nav">
+      <div class="notifications">
+        <img src="icons/notifications.png" alt="notifications.img">
+      </div>
+      <div class="messages">
+        <img src="icons/messages.png" alt="messages.img">
+      </div>
+      <div class="account">
+        <img src="icons/account.png" alt="account.img">
+        Mike Sterling 
+        <img src="icons/menu-down.png" alt="">
+      </div>
+    </div>
+  </header>
+  <div class="sidebar">
+    <div class="menu">
+      Menu:
+      <div class="menu-overview">
+        <img src="icons/sidebar/overview.png" alt="">
+        Overview
+      </div>
+      <div class="menu-wallet">
+        <img src="icons/sidebar/wallet.png" alt="">
+        My Wallet
+      </div>
+      <div class="menu-transactions">
+        <img src="icons/sidebar/transactions.png" alt="">
+        Transactions
+      </div>
+    </div>
+    <div class="others">
+      Others: 
+      <div class="settings">
+        <img src="icons/sidebar/settings.png" alt="">
+        Settings
+      </div>
+      <div class="support">
+        <img src="icons/sidebar/support.png" alt="">
+        Support
+      </div>
+    </div>
+    <button id="connect">
+      <img src="icons/sidebar/connect.png" alt="">
+      Connect wallet
+    </button>
+  </div>
+  <div class="main-content">
+    <div class="coins">
+      <div class="bitcoin">
+        <div class="coin-logo">
+          <img src="icons/coins/currency-btc.png" alt="">
+        </div>
+        <div class="coin-name">
+          Bitcoin
+        </div>
+        <div class="coin-value">
+          <div class="coin-price">
+            $20,800.50
+          </div>
+          <div class="coin-trend">
+            -7.88% 
+          </div>
+        </div>
+      </div>
+      <div class="ethereum">
+        <div class="coin-logo">
+          <img src="icons/coins/ethereum.png" alt="">
+        </div>
+        <div class="coin-name">
+          Ethereum
+        </div>
+        <div class="coin-value">
+          <div class="coin-price">
+            $1050.54
+          </div>
+          <div class="coin-trend">
+            -13.00% 
+          </div>
+        </div>
+      </div>
+      <div class="stellar">
+        <div class="coin-logo">
+          <img src="icons/coins/stellar.png" alt="">
+        </div>
+        <div class="coin-name">
+          Stellar
+        </div>
+        <div class="coin-value">
+          <div class="coin-price">
+            $0.10
+          </div>
+          <div class="coin-trend">
+            -5,87% 
+          </div>
+        </div>        
+      </div>
+      <div class="litecoin">
+        <div class="coin-logo">
+          <img src="icons/coins/litecoin.png" alt="">
+        </div>
+        <div class="coin-name">
+          Litecoin
+        </div>
+        <div class="coin-value">
+          <div class="coin-price">
+            $42.12
+          </div>
+          <div class="coin-trend">
+            -8.79%
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="market">
+      <div class="quick-trade">
+        <div class="trade-head">
+          <div class="trade-description">
+            <h2>Quick Trade</h2>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+          </div>
+          <div class="trade-coin">
+            <img src="icons/coins/currency-btc.png" alt="bitcoin-trade.img">
+            <p>127.384 Btc</p> 
+            <img src="icons/menu-down.png" alt="">
+          </div>
+        </div>
+        <div class="trade-settings">
+          <div class="set-setting btc">
+            <div class="settings-name">
+              <p>Amount BTC</p>
+            </div>
+            <p>52.5</p>
+          </div>
+          <div class="set-setting">
+            <div class="settings-name">
+              <p>Price BPL</p>
+            </div>
+            <p>0.00000000</p>
+          </div>
+          <div class="set-setting">
+            <div class="settings-name">
+              <p>Fee (1%)</p>
+            </div>
+            <p>0.00000000</p>
+          </div>
+          <div class="set-setting">
+            <div class="settings-name">
+              <p>Total BPL</p>
+            </div>
+            <p>0.00000000</p>
+          </div>
+        </div>
+        <div class="trade-action">
+          <div class="action-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis exercitationem cupiditate sint sit nihil veniam cum.
+          </div>
+          <div class="buy">
+            <p>BUY</p>
+            <p>↙</p>
+          </div>
+          <div class="sell">
+            <p>SELL</p>
+            <p>↗</p>
+          </div>
+        </div>
+      </div>
+      <div class="market-status">
+        <div class="status-label">
+          <h2>Market Status</h2>
+          <button id="market-button">View all</button>
+        </div>
+        <div class="market-statistics">
+          <div class="statistic1">
+            <div class="stat-logo">
+              <img src="icons/stats/stat1.png" alt="">
+            </div>
+            <div class="supply">
+              <div class="stat-left">
+                <div class="total-supply">
+                  <p>Total Supply</p>
+                  <p>17.5M</p>
+                </div>
+              </div>
+              <div class="stat-right">
+                <div class="max-supply">
+                  <p>Max Supply</p>
+                  <p>↑ 17.5%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="statistic2">
+            <div class="stat-logo">
+              <img src="icons/stats/stat2.png" alt="">
+            </div>
+            <div class="supply">
+              <div class="stat-left">
+                <div class="total-supply">
+                  <p>Total Supply</p>
+                  <p>11.5M</p>
+                </div>
+              </div>
+              <div class="stat-right">
+                <div class="max-supply">
+                  <p>Max Supply</p>
+                  <p>↑ 12.5%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="statistic3">
+            <div class="stat-logo">
+              <img src="icons/stats/stat3.png" alt="">
+            </div>
+            <div class="supply">
+              <div class="stat-left">
+                <div class="total-supply">
+                  <p>Total Supply</p>
+                  <p>12.7M</p>
+                </div>
+              </div>
+              <div class="stat-right">
+                <div class="max-supply">
+                  <p>Max Supply</p>
+                  <p>↑ 10.5%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lorem">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, consectetur.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
