@@ -1,1 +1,2 @@
-# admin-dashboard
+# Crypto-dashboard
+Practising CSS Grid
